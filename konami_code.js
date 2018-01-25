@@ -7,7 +7,7 @@ function init(){
     if(key === code[index]){
       index++
       if(index===code.length){
-        alert("Welcome, Lain.")
+        window.alert("Welcome, Lain.")
         index=0
       }
   }else{
