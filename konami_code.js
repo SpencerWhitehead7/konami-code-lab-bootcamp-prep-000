@@ -8,8 +8,9 @@ function init(){
       if(index===code.length){
         window.alert("Welcome, Lain.")
         index=0
-      }
-  }else{
+        }
+    }else{
     index=0
-  }
-})}
+    }
+  })
+}
