@@ -6,7 +6,7 @@ function init() {
   let index = 0;
   document.body.addEventListener('keydown',function(e){
 
-    if(e.detail===code[index]){
+    if(e.location===code[index]){
       index++;
       console.log(`index: ${index}`)
 
