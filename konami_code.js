@@ -3,7 +3,7 @@ var index = 0
 
 function init(){
   document.body.addEventListener('keydown', function(e){
-    if(parseInt(e.location) === code[index]){
+    if(e.location === code[index]){
       index++
       if(index===code.length){
         window.alert("Welcome, Lain.")
