@@ -3,14 +3,13 @@ var index = 0
 
 function init(){
   document.body.addEventListener('keydown', function(e){
-function keydownHandler() {
-  const key = parseInt(e.detail || e.which)
-  if(key === code[index]){
-    index++
-    if(index===code.length){
-      alert("Welcome, Lain.")
-      index=0
-    }
+    const key = parseInt(e.detail || e.which)
+    if(key === code[index]){
+      index++
+      if(index===code.length){
+        alert("Welcome, Lain.")
+        index=0
+      }
   }else{
     index=0
   }
