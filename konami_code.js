@@ -14,4 +14,4 @@ function init(e) {
   }
 }
 
-body.addEventHandler('keydown', init
+body.addEventListener('keydown', init)
